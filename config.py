@@ -14,7 +14,7 @@ else:
     STRING_SESSION = None
 
 # Bot token @Botfather
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8687580240:AAF0eWWk2OfIbRZfcQM5fVSVuJdagY49DQQ")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8763983777:AAGhWqeukCGe67sLQu8o2lC-f-m5GmPYJ5w")
 
 # Your API ID from my.telegram.org
 API_ID = int(os.environ.get("API_ID", "39784792"))
@@ -36,7 +36,7 @@ DB_URI = os.environ.get("DB_URI", "mongodb+srv://AntolVibishan:ANTOL@GMAIL@clust
 DB_NAME = os.environ.get("DB_NAME", "antolvibishan")
 
 # Increase time as much as possible to avoid floodwait, spamming and tg account ban issues.
-WAITING_TIME = int(os.environ.get("WAITING_TIME", "50000")) # time in seconds
+WAITING_TIME = int(os.environ.get("WAITING_TIME", "300")) # time in seconds
 
 # If You Want Error Message In Your Personal Message Then Turn It True Else If You Don't Want Then Flase
 ERROR_MESSAGE = bool(os.environ.get('ERROR_MESSAGE', True))
